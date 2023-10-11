@@ -2,3 +2,58 @@ body{
     background-color: #083B4C;
     color: white;
 }
+#boxWrapper{
+    width: 700px;
+    height: 700px;
+    margin: 50x auto;
+}
+.fizz{
+    width: calc((600px / 7) - 10px);
+    height: calc((600px / 7) - 10px);
+    background-color: #0CD6A1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 1px 1px 5px black;
+    transition: 0.8s;
+}
+.fizz:hover{
+    border-radius: 50%;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+.fizzBuzz{
+    width: calc((600px / 7) - 10px);
+    height: calc((600px / 7) - 10px);
+    background-color: #F0466F;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    box-shadow: 1px 1px 5px black;
+}
+.fizzBuzz:hover{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.buzz{
+    width: calc((600px / 7) - 10px);
+    height: calc((600px / 7) - 10px);
+    background-color: #FFD166; 
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    box-shadow: 1px 1px 5px black;
+    align-items: center;
+}
+.box{
+    width: calc((600px / 7) - 10px);
+    height: calc((600px / 7) - 10px);
+    background-color: #1389B2; 
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    box-shadow: 1px 1px 5px black;
+    align-items: center;
+}
